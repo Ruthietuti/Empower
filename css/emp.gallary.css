@@ -1,0 +1,408 @@
+/* Goggle font*/
+@import url(http://db.onlinewebfonts.com/c/c230ecbf5e13583fc4c70a14726c9055?family=Tangerine);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*This will affect all elements*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* font-family: "poppins", sans-serif; */
+}
+
+/*Nav and banner start*/
+.header{
+	min-height: 60vh;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../image/img/banner.jpeg);
+	background-repeat: no-repeat;
+	background-position:center top ;
+	background-size: cover;
+	position: relative;
+
+} 
+.text-box{
+	text-align: center;
+	padding-top: 30%;
+	top: 85%;
+	color: blanchedalmond;
+	font-family: 'Tangerine';
+	font-size: 300%;
+}
+
+/*nav and banner ends*/
+/* volunteer starts */
+.Volunteers{
+	width: 80%;
+	margin: auto;
+	padding-top: 100px;
+	text-align:center ;
+}
+.Volunteers >h1{
+	font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.Volunteers >p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+    font-weight: 300;
+    color: rgb(114, 9, 114);
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+	margin: auto;
+}
+.Volunteers-col{
+	flex-basis: 31%;
+	padding: 21px 14px;
+	margin-bottom: 5%;
+	transition: 0.05s ease;
+	border-radius: 7px;
+}
+.Volunteers h3{
+	text-align: center;
+	font-weight: 800;
+    margin: 10px 0;
+    color: rgb(100, 7, 22);
+}
+.Volunteers img{
+	width: 100%;
+	object-fit: cover;
+	height: 450px;
+}
+.Volunteers-col:hover{
+	box-shadow: 0 0 20px 0px rgba(15, 1, 1, 0.2);
+	cursor: pointer;
+}
+@media (max-width: 820px){
+	.Volunteers-col{
+		flex-basis: 45%;
+	}
+}
+@media (max-width: 450px){
+	.Volunteers-col{
+		flex-basis: 95%;
+	}
+}
+/* volunteer ends */
+/*facilitators starts*/
+.facilitators{
+	width: 80%;
+	margin: auto;
+	padding-top: 100px;
+	text-align:center ;
+}
+.facilitators >h1{
+	font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.facilitators >p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+    font-weight: 300;
+    color: rgb(114, 9, 114);
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+	margin: auto;
+}
+.facilitators-col{
+	flex-basis: 31%;
+	padding: 21px 14px;
+	margin-bottom: 5%;
+	transition: 0.05s ease;
+	border-radius: 7px;
+
+}
+.facilitators img{
+	width: 100%;
+	object-fit: cover;
+}
+.Facilitators-col:hover{
+	box-shadow: 0 0 20px 0px rgba(15, 1, 1, 0.2);
+	cursor: pointer;
+}
+@media (max-width: 820px){
+	.facilitators-col{
+		flex-basis: 45%;
+	}
+}
+@media (max-width: 450px){
+	.facilitators-col{
+		flex-basis: 95%;
+	}
+}
+/*facilitators end*/
+/*WebDev starts*/
+.WebDev{
+	width: 80%;
+	margin: auto;
+	padding-top: 100px;
+	text-align:center ;
+}
+.WebDev >h1{
+	font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.WebDev >p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+    font-weight: 300;
+    color: rgb(114, 9, 114);
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.WebDev-col{
+	flex-basis: 31%;
+	padding: 21px 14px;
+	margin-bottom: 5%;
+	transition: 0.05s ease;
+	border-radius: 7px;
+}
+.WebDev img{
+	width: 100%;
+	object-fit: cover;
+}
+.WebDev-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+@media (max-width: 820px){
+	.WebDev-col{
+		flex-basis: 45%;
+	}
+}
+@media (max-width: 450px){
+	.WebDev-col{
+		flex-basis: 95%;
+	}
+}
+/*WebDev ends*/
+/*DigMar starts*/
+.DigMar{
+	width: 80%;
+	margin: auto;
+	padding-top: 100px;
+	text-align:center ;
+}
+.DigMar >h1{
+	font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.DigMar >p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+    font-weight: 300;
+    color: rgb(114, 9, 114);
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.DigMar-col{
+	flex-basis: 31%;
+	padding: 21px 14px;
+	margin-bottom: 5%;
+	transition: 0.05s ease;
+	border-radius: 7px;
+}
+.DigMar img{
+	width: 100%;
+	object-fit: cover;
+}
+.DigMar-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+@media (max-width: 820px){
+	.DigMar-col{
+		flex-basis: 45%;
+	}
+}
+@media (max-width: 450px){
+	.DigMar-col{
+		flex-basis: 95%;
+	}
+}
+/*DigMar ends*/
+/*DataSci starts*/
+.DataSci{
+	width: 80%;
+	margin: auto;
+	padding-top: 100px;
+	text-align:center ;
+}
+.DataSci >h1{
+	font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.DataSci >p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+    font-weight: 300;
+    color: rgb(114, 9, 114);
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.DataSci-col{
+	flex-basis: 31%;
+	padding: 21px 14px;
+	margin-bottom: 5%;
+	transition: 0.05s ease;
+	border-radius: 7px;
+}
+.DataSci img{
+	width: 100%;
+	object-fit: cover;
+}
+.DataSci-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+@media (max-width: 820px){
+	.DataSci-col{
+		flex-basis: 45%;
+	}
+}
+@media (max-width: 450px){
+	.DataSci-col{
+		flex-basis: 95%;
+	}
+}
+/*DataSci ends*/
+/*GraphDe starts*/
+.GraphDe{
+	width: 80%;
+	margin: auto;
+	padding-top: 100px;
+	text-align:center ;
+}
+.GraphDe >h1{
+	font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.GraphDe >p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+    font-weight: 300;
+    color: rgb(114, 9, 114);
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.GraphDe-col{
+	flex-basis: 31%;
+	padding: 21px 14px;
+	margin-bottom: 5%;
+	transition: 0.05s ease;
+	border-radius: 7px;
+}
+.GraphDe img{
+	width: 100%;
+	object-fit: cover;
+	height: 450px;
+}
+.GraphDe-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+@media (max-width: 820px){
+	.GraphDe-col{
+		flex-basis: 45%;
+	}
+}
+@media (max-width: 450px){
+	.GraphDe-col{
+		flex-basis: 95%;
+	}
+}
+/*GraphDe ends*/
+/*3D starts*/
+.M3D{
+	width: 80%;
+	margin: auto;
+	padding-top: 100px;
+	text-align:center ;
+}
+.M3D >h1{
+	font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.M3D >p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+    font-weight: 300;
+    color: rgb(114, 9, 114);
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.M3D-col{
+	flex-basis: 31%;
+	padding: 21px 14px;
+	margin-bottom: 5%;
+	transition: 0.05s ease;
+	border-radius: 7px;
+}
+.M3D img{
+	width: 100%;
+	object-fit: cover;
+	height: 450px;
+}
+.M3D-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+@media (max-width: 820px){
+	.M3D-col{
+		flex-basis: 45%;
+	}
+}
+@media (max-width: 450px){
+	.M3D-col{
+		flex-basis: 95%;
+	}
+}
+/* M3D ends */
