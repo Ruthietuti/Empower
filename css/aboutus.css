@@ -263,18 +263,8 @@
 .members-col:nth-child(6) {
 	margin-bottom: 50px;
 }
-.members-col:nth-child(6) {
-	margin-bottom: 50px;
-}
 	.members-col img {
 		height: 80%;
-	}
-}
-@media (max-width:1200px){
-	nav {
-		padding-right: 100px;
-		position: fixed;
-		align-items:center ;
 	}
 }
 /* our team ends */

@@ -529,7 +529,7 @@ footer .footer-col:nth-child(2) {
   flex-basis: 25%;
 }
 
-footer .facility-col:last-child {
+footer .footer-col:last-child {
   flex-basis: 25%;
 }
 footer .social-links i {
