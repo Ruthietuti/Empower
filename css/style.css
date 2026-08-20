@@ -564,3 +564,8 @@ footer .social-links i {
     padding-top: 30px;
   }
 }
+
+/* Prevent sideways scroll from stray section overflow */
+html, body {
+	overflow-x: hidden;
+}
