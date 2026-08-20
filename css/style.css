@@ -567,5 +567,236 @@ footer .social-links i {
 
 /* Prevent sideways scroll from stray section overflow */
 html, body {
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
+
+/* ============================================================
+   EmpowerHer design system (professional polish)
+   ============================================================ */
+:root {
+  --primary: #5b2e6e;
+  --primary-dark: #431f52;
+  --accent: #c33e6f;
+  --accent-soft: #f5eef7;
+  --ink: #2b2430;
+  --muted: #6b6273;
+  --light: #ffffff;
+  --bg-soft: #faf8fb;
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(75, 30, 95, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  color: var(--ink);
+  line-height: 1.7;
+  background: var(--light);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', Arial, sans-serif;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Nav refinements */
+nav {
+  padding: 10px 40px;
+  background: linear-gradient(90deg, rgba(30, 12, 48, 0.92), rgba(91, 46, 110, 0.92));
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+}
+nav img {
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.nav-links a {
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Buttons */
+.text button,
+.btn {
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent), var(--primary));
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(195, 62, 111, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+.text button {
+  min-width: 200px;
+  height: 52px;
+}
+.text button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(91, 46, 110, 0.45);
+}
+
+/* Hero */
+.banner {
+  background-attachment: scroll;
+}
+.text h1 {
+  letter-spacing: 2px;
+}
+.text p {
+  color: #f2e6f7;
+  letter-spacing: 4px;
+  font-size: 22px;
+  margin: 12px 0 20px;
+}
+
+/* Section headings */
+.E-her h1,
+.vision > h2,
+.vision h1,
+.testimonial h1,
+.goals > h1,
+.teamhead h1,
+.Volunteers > h1,
+.facilitators > h1,
+.WebDev > h1,
+.DigMar > h1,
+.DataSci > h1,
+.GraphDe > h1,
+.M3D > h1 {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+/* Community strip */
+.E-her {
+  height: auto;
+  padding: 64px 20px;
+}
+.E-her p {
+  color: var(--muted);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Vision & mission cards */
+.vision-col,
+.goals-col {
+  background: var(--accent-soft);
+  border: 1px solid rgba(91, 46, 110, 0.12);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.vision-col:hover,
+.goals-col:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(75, 30, 95, 0.18);
+}
+.vision-col i {
+  color: var(--accent);
+}
+
+/* Testimonials */
+.testimonial {
+  background: linear-gradient(135deg, #2a1640, #431f52);
+  padding: 70px 0;
+}
+.testimonial h1 {
+  color: #ffffff;
+}
+.testimonial-col {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.testimonial-col p {
+  color: #f1e9f5;
+}
+.testimonial-col i {
+  color: var(--accent) !important;
+}
+
+/* Footer */
+footer {
+  background: #221238;
+  padding: 56px 0 20px;
+  margin-top: 0;
+}
+footer h1 {
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+footer p {
+  color: #cfc4d8;
+}
+footer a {
+  color: #cfc4d8;
+}
+footer .social-links i {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.25s ease;
+}
+footer .social-links i:hover {
+  background: var(--accent);
+}
+
+/* Responsive guard (covers all pages) */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+@media (max-width: 850px) {
+  nav {
+    padding: 10px 20px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .text h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 546px) {
+  .text h1 {
+    font-size: 30px;
+  }
+  .text p {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .text button {
+    width: 70%;
+    min-width: 0;
+  }
+}
+

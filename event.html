@@ -1,31 +1,179 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/event.css?v=3">
-        <link rel="stylesheet" href="css/style.css?v=3">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-        <title>EMPOWERHER/EVENT</title>
-    </head>
-        <!--navbar start-->
-       
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events &amp; Tracks | EmpowerHer</title>
+    <meta
+      name="description"
+      content="Explore EmpowerHer's training tracks — Data Science, Digital Marketing, Graphic Design, 3D Printing and Web Design — and join a community uplifting women in technology."
+    />
+    <meta property="og:title" content="Events &amp; Tracks | EmpowerHer" />
+    <meta
+      property="og:description"
+      content="Training tracks that equip women with in-demand technology skills."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ruthietuti.github.io/Empower/event.html" />
+    <link rel="stylesheet" href="css/event.css?v=4" />
+    <link rel="stylesheet" href="css/style.css?v=4" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
     <nav>
-        <a href="index.html"> <img src="imgg/Capture woman.PNG" alt="#" /> </a>
-        <div class="nav-links">
-          <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="aboutus.html">about</a></li>
-            <li>
-              <a href="event.html">event</a>
-            </li>
-            <li>
-              <a href="emp.gallary.html">gallery</a>
-            </li>
-          </ul>
+      <a href="index.html"> <img src="imgg/Capture%20woman.PNG" alt="EmpowerHer logo" /> </a>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="aboutus.html">about</a></li>
+          <li><a href="event.html">event</a></li>
+          <li><a href="emp.gallary.html">gallery</a></li>
+        </ul>
+      </div>
+      <div class="mobile-view" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="aboutus.html">about</a></li>
+          <li><a href="event.html">event</a></li>
+          <li><a href="emp.gallary.html">gallery</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <section class="navbar">
+      <h1>Events</h1>
+    </section>
+    <!-- navbar end -->
+
+    <!-- services start -->
+    <section class="Services">
+      <div class="background">
+        <div class="row">
+          <div class="services-col">
+            <img src="imgg/IMG_5618%20(1).jpeg" alt="EmpowerHer bootcamp" />
+          </div>
+          <div class="services-col">
+            <h1>Introduction</h1>
+            <p>
+              EmpowerHer is a technology community focused on raising and
+              promoting women in tech. The community was initiated by Elizabeth
+              Okaome, a co-founder of Midtown Tech Hub.
+            </p>
+            <p>
+              We organise bootcamps and training programmes to help women build
+              practical skills in the field of technology.
+            </p>
+          </div>
         </div>
-        <div class="mobile-view" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
+      </div>
+
+      <div class="backgrounds">
+        <h1>The Different Tracks</h1>
+        <div class="row">
+          <div class="service-column">
+            <img src="imgg/FB_IMG_1628533959553.jpg" alt="Data Science" />
+            <div class="service-text">
+              <h2>Data Science</h2>
+              <p>
+                Learn how to work with data — from analysis and visualisation to
+                deriving insights that drive real decisions. This track builds
+                the foundations you need to start a career in data.
+              </p>
+            </div>
+          </div>
+          <div class="service-column">
+            <img src="imgg/FB_IMG_1628533952986.jpg" alt="Digital Marketing" />
+            <h2>Digital Marketing</h2>
+            <p>
+              Discover how brands reach and engage audiences online. This track
+              covers the essentials of digital marketing so you can grow your
+              skills and your confidence in a fast-moving field.
+            </p>
+          </div>
+          <div class="service-column">
+            <img src="imgg/FB_IMG_1628533979227.jpg" alt="Graphic Design" />
+            <h2>Graphic Design</h2>
+            <p>
+              Develop your creative eye and learn the principles of visual
+              communication. This track helps you turn ideas into clear,
+              professional designs.
+            </p>
+          </div>
+        </div>
+        <div class="rows">
+          <div class="service-column">
+            <img src="imgg/FB_IMG_1628533932532.jpg" alt="3D Printing" />
+            <h2>3D Printing</h2>
+            <p>
+              Explore how digital models become real objects. This hands-on
+              track introduces the tools and workflows behind 3D design and
+              printing.
+            </p>
+          </div>
+          <div class="service-column">
+            <img src="imgg/FB_IMG_1628533869905.jpg" alt="Web Design" />
+            <h2>Web Design</h2>
+            <p>
+              Learn to design and build modern websites from the ground up. This
+              track covers the essential skills for becoming a successful web
+              developer, along with the career opportunities that come with them.
+              Sign up and get the full experience.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <video
+        src="imgg/InShot_20210809_091839517.mp4"
+        poster="imgg/IMG_5599-1.jpeg"
+        controls
+        preload="none"
+      >
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <!-- services end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="roww">
+        <div class="footer-col">
+          <h1>empower<em>her</em>&copy;</h1>
+          <p>
+            EmpowerHer is a technology-focused community dedicated to training
+            and promoting women in the field of information technology. We aim
+            to spread awareness of the opportunities available and to include as
+            many women as possible.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-slack"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h1>Address Info</h1>
+          <p>
+            <i class="fa fa-map-marker-alt"></i>&nbsp;&nbsp; 1, Jidare Drive off
+            Etete Road, <br />
+            GRA, Benin City, Nigeria. <br />
+          </p>
+          <p>
+            <i class="fa fa-envelope"></i>&nbsp;&nbsp; empowerhercom@gmail.com
+          </p>
+          <p>
+            <i class="fa fa-phone-alt"></i> &nbsp;&nbsp;+234 811 423 3109
+          </p>
+        </div>
+        <div class="footer-col">
+          <h1>Quick Links</h1>
           <ul>
             <li><a href="index.html">home</a></li>
             <li><a href="aboutus.html">about</a></li>
@@ -33,137 +181,25 @@
             <li><a href="emp.gallary.html">gallery</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-      </nav>
-            <section class="navbar">
-               <h1>Events</h1>
-               </section>
-        <!--navbar end-->
-    <!--sevices start-->
-    <section class="Services">
-      <div class="background">
-        <div class="row">
-          <div class="services-col">
-            <img src="imgg/IMG_5618 (1).jpeg" alt="">
-        </div>
-            <div class="services-col">
-                <h1>Introduction</h1>
-                <p>Empower her is a tech community focused on raising and promoting women in tech and was initiated by Elizabeth Okoame a co-founder of Mid-town Tech hub.</p>
-                <p>We have a organized a bootcamp for the training of women in the field of tech.  </p>
-            </div>
-        </div>
       </div>
-      <div class="backgrounds">
-      <h1>THE <br> DIFFERENT <br> TRACKS</h1>
-    <div class="row">
-        <div class="service-column">
-            <img src="imgg/FB_IMG_1628533959553.jpg" alt="">
-            <div class="service-text">
-                <h2>Data Science</h2>
-                <p>During the course of this programme we will be extensively teaching about Web development, how to be a successful web developer as well as several job opportunities . Sign up and get the full experience </p>
-            </div>
-        </div>
-        <div class="service-column">
-            <img src="imgg/FB_IMG_1628533952986.jpg" alt="">
-            <h2>Digital Marketing</h2>
-            <p>During the course of this programme we will be extensively teaching about Web development, how to be a successful web developer as well as several job opportunities . Sign up and get the full experience </p>
-        </div>
-        <div class="service-column">
-        <img src="imgg/FB_IMG_1628533979227.jpg" alt="">
-        <h2>Graphic Design</h2>
-        <p>During the course of this programme we will be extensively teaching about Web development, how to be a successful web developer as well as several job opportunities . Sign up and get the full experience </p>
-        </div>
-        </div>
-        <div class="rows">
-        <div class="service-column">
-            <img src="imgg/FB_IMG_1628533932532.jpg" alt="">
-            <h2>3D-Printing</h2>
-            <p>During the course of this programme we will be extensively teaching about Web development, how to be a successful web developer as well as several job opportunities . Sign up and get the full experience </p>
-        </div>
-        <div class="service-column">
-            <img src="imgg/FB_IMG_1628533869905.jpg" alt="">
-            <h2>Web Design</h2>
-            <p>During the course of this programme we will be extensively teaching about Web development, how to be a successful web developer as well as several job opportunities . Sign up and get the full experience </p>
+      <div class="footer-bottom">
+        <p>
+          All rights reserved. &copy; empower<em>her</em>
+          <span class="current-date-year"> </span>
+        </p>
       </div>
-        </div>
-    </div>
-    </div>
-    <video src="imgg/InShot_20210809_091839517.mp4" poster= "imgg/IMG_5599-1.jpeg" controls autoplay>play</video>
-    </section>
-    <!--sevices end-->
-     <!-- footer start -->
-     <footer>
-        <div class="roww">
-          <div class="footer-col">
-            <h1>empower<em>her</em>&copy;</h1>
-            <p>
-              Empowerher community is a tech based community focused on training
-              and promoting women in the field of Information Technology. We aim
-              to spraed more awareness for opportunity in Information technology
-              and incoperate as many women as possible.
-            </p>
-            <div class="social-links">
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-slack"></i></a>
-            </div>
-          </div>
-  
-          <div class="footer-col">
-            <h1>address info</h1>
-            <p>
-              <i class="fa fa-map-marker-alt"></i>&nbsp;&nbsp; 1, Jidare Drive off Etete road, <br />
-              GRA,benin city, nigeria. <br />
-            </p>
-  
-            <p>
-              <i class="fa fa-envelope"></i>&nbsp;&nbsp; empowerhercom@gmail.com
-            </p>
-            <p> 
-              <i class="fa fa-phone-alt"></i> &nbsp;&nbsp;+234 811 423 3109 
-            </p>
-          </div>
-          <div class="footer-col">
-            <h1>quick links</h1>
-            <ul>
-              <li>
-                <a href="index.html">home</a>
-              </li>
-              <li>
-                <a href="aboutus.html">about</a>
-              </li>
-              <li>
-                <a href="emp.gallary.html">event</a>
-              </li>
-              <li>
-                <a href="event.html">gallery</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>
-            all right reserved. &copy; empower<em>her</em>
-            <span class="current-date-year"> </span>
-          </p>
-        </div>
-      </footer>
-      <!-- footer section end -->
-  
-        
+    </footer>
+    <!-- footer section end -->
 
-
-         <!-- js mobile nav bar start -->
+    <!-- js mobile nav bar start -->
     <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.display = "block";
-
-        }
-        function hideMenu(){
-            navLinks.style.display = "none";
-        }
+      var navLinks = document.getElementById('navLinks')
+      function showMenu() {
+        navLinks.style.display = 'block'
+      }
+      function hideMenu() {
+        navLinks.style.display = 'none'
+      }
     </script>
+  </body>
 </html>
