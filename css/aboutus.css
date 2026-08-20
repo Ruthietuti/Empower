@@ -203,9 +203,9 @@
 	.founder-col p {
 		width: 100%;
 	}
-	pre {
-		padding-right: 50pz;
-	}
+        .founder-col pre {
+                white-space: pre-wrap;
+        }
 }
 @media (max-width:500px) {
 	.founder-img {
